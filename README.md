@@ -1,4 +1,4 @@
-# Reactive Books, A React Bookshelf
+# Trivo, a Flask trivia game API
 
 ## Table of Contents
 
