@@ -22,7 +22,7 @@ Trivo is a trivia game API that I built to practice full stack programming as pa
 
 It uses flask as a web framework, PostgreSQL as the database of choice and SqlAlchemy as the ORM
 
-It demonstrades my understanding of API creation, error handling,full documentation and unit testing.
+It demonstrates my understanding of API creation, error handling,full documentation and unit testing.
 
 ## Technologies
 
