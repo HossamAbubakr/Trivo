@@ -12,6 +12,8 @@
 
 * [Documentation](#Documentation)
 
+* [Unit Testing](#Unit Testing)
+
 * [Usage](#Usage)
 
 ## Summary
@@ -20,7 +22,7 @@ Trivo is a trivia game API that I built to practice full stack programming as pa
 
 It uses flask as a web framework, PostgreSQL as the database of choice and SqlAlchemy as the ORM
 
-It demonstrades my understanding of API creation, error handling and full documentation.
+It demonstrades my understanding of API creation, error handling,full documentation and unit testing.
 
 ## Technologies
 
@@ -89,10 +91,21 @@ SQLAlchemy as the ORM of choice.
   "success": true
 }
 ```
+
 ## Documentation
 For a detailed documentation [Full documentation](https://documenter.getpostman.com/view/13571543/TVetc6SC).
 
-## Usage
+## Unit Testing
+A test_flask.py file is included that includes a comprehensive list of unit tests.
+The PostgreSQL connection string needs to be supplied below
+```
+self.database_path = "postgres://{}/{}".format('postgres:root@localhost:5432', self.database_name)
+```
+
+## Initialization
+a psql file is provided **trivia.psql** we a list of initial questions which can be imported to your PostgreSQL instance
+
+## Usage and installation
 
 You can get the project up and running in 3 simple steps.
 
