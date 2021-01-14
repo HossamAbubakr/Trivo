@@ -8,13 +8,13 @@
 
 * [Features](#Features)
 
-* [Endpoints ](#Endpoints)
+* [Endpoints](#Endpoints)
 
 * [Documentation](#Documentation)
 
 * [Unit Testing](#Unit-Testing)
 
-* [Usage](#Usage)
+* [Usage and Installation](#usage-and-installation)
 
 ## Summary
 
