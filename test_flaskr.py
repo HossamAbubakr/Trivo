@@ -15,7 +15,7 @@ class TriviaTestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         self.database_name = "trivia_test"
-        self.database_path = "postgres://{}/{}".format('postgres:root@localhost:5432', self.database_name) # I used CREATE DATABASE trivia_test TEMPLATE trivia to duplicate the main DB
+        self.database_path = "postgres://{}/{}".format('CONNECTION_STRING', self.database_name) # I used CREATE DATABASE trivia_test TEMPLATE trivia to duplicate the main DB
         setup_db(self.app, self.database_path)
 
         # binds the app to the current context
