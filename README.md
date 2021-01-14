@@ -8,7 +8,9 @@
 
 * [Features](#Features)
 
-* [Endpoints ](#Endpoints )
+* [Endpoints ](#Endpoints)
+
+* [Documentation](#Documentation)
 
 * [Usage](#Usage)
 
@@ -87,6 +89,8 @@ SQLAlchemy as the ORM of choice.
   "success": true
 }
 ```
+## Documentation
+For a detailed documentation [Full documentation](https://documenter.getpostman.com/view/13571543/TVetc6SC#fd7cfd40-d1a9-40ce-b502-1f47ee26b632).
 
 ## Usage
 
