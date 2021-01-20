@@ -98,7 +98,7 @@ For a detailed documentation [Full documentation](https://documenter.getpostman.
 ## Unit Testing
 A test_flask.py file is included that includes a comprehensive list of unit tests.
 The PostgreSQL connection string needs to be supplied below
-```
+```python
 self.database_path = "postgres://{}/{}".format('postgres:root@localhost:5432', self.database_name)
 ```
 
@@ -114,7 +114,7 @@ You can get the project up and running in 3 simple steps.
 pip install -r requirements.txt
 ```
 2. Edit the models.py file and add your PostgreSQL connection string
-```
+```python
 database_path = "postgres://{}/{}".format('CONNECTION_STRING', database_name)
 ```
 3. Use The following command to start the server and voila!
