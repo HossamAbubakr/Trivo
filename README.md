@@ -47,7 +47,7 @@ SQLAlchemy as the ORM of choice.
 
 ## Endpoints 
 
-```
+```json
 {
   "briefing": "Welcome to the trivia API, below is the list of the available endpoints, for more information check our documentation file", 
   "endPoints": {
