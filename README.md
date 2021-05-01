@@ -18,7 +18,7 @@
 
 ## Summary
 
-Trivo is a trivia game API that I built to practice full stack programming as part of my udacity nanodegree.
+Trivo is a trivia game API that I built to practice full stack programming as part of my **Full Stack Nanodegree from Udacity**.
 
 It uses flask as a web framework, PostgreSQL as the database of choice and SqlAlchemy as the ORM
 
