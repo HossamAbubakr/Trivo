@@ -110,7 +110,7 @@ a psql file is provided **trivia.psql** we a list of initial questions which can
 You can get the project up and running in 3 simple steps.
 
 1. Use the following command to install the required packages
-```
+```Batchfile
 pip install -r requirements.txt
 ```
 2. Edit the models.py file and add your PostgreSQL connection string
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 database_path = "postgres://{}/{}".format('CONNECTION_STRING', database_name)
 ```
 3. Use The following command to start the server and voila!
-```
+```Batchfile
 set FLASK_APP=flaskr
 set FLASK_ENV=development
 flask run
